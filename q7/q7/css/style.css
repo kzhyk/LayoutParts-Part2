@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+.baloon {
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.around {
+    line-height: 16px;
+    background-color: #fad296;
+    border: solid 5px #8f5a0a;
+    border-radius: 30px;
+}
+
+.text {
+    font-size: 16px;;
+}
+
+.triangle::before,
+.triangle::after {
+    position: absolute;
+    border: solid 20px transparent;
+    left: 400px;
+}
+
+.triangle::before {
+    content: "";
+    border-top: solid 20px #8f5a0a;
+}
+
+.triangle::after {
+    content: "";
+    border-top: solid 20px #fad296;
+    top: 345px;
+}

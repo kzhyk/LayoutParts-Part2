@@ -1,1 +1,44 @@
+
 @charset "UTF-8";
+
+header {
+    width: 100%;
+    background-color: #388bff;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SHOP {
+    margin-top: 30px;
+}
+
+.SHOP a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f2ff7b;
+    text-decoration: none;
+}
+
+.menu a {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    text-decoration: none;
+}
